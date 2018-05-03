@@ -56,7 +56,7 @@
     "test_watch": "npm install && npm test",
     "test": "node test/main_test.js",
     "watch": "npm-watch",
-    "install": "prebuild-install || node-gyp rebuild"
+    "install": "prebuild-install --verbose --force || node-gyp rebuild"
   },
   "dependencies": {
     "prebuild-install": "^2.5.1"
